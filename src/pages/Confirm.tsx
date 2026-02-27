@@ -10,7 +10,7 @@ export function Confirm(){
   }
 
   return(
-    <div className="bg-gray-500 lg:w-[512px] p-10 gap-6 rounded-xl flex flex-col items-center gap-6">
+    <div className="bg-gray-500 lg:w-lg p-10 gap-6 rounded-xl flex flex-col items-center">
       <h1 className="text-2xl font-bold text-center text-green-100">Request Confirmed</h1>
 
       <img src={okSvg} alt="Confirmed icon" className="w-28" />
